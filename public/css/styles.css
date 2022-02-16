@@ -1,0 +1,60 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+.word-wrap {
+    word-break: break-all;
+    white-space: normal;
+}
+
+.title-color {
+    color: #1abc9c;
+}
+
+hr.line {
+    border: 2px solid rgb(137, 182, 182);
+    border-radius: 5px;
+    width: 100%;
+}
+
+.img-style {
+    height: 50%;
+    width: 50%;
+}
+
+.games-text {
+    font-size: 18px;
+}

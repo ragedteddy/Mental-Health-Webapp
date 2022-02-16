@@ -1,0 +1,26 @@
+<%- include('partials/header'); -%>
+
+    <nav>
+        <a href="/compose">
+            <h2 class="title-color">Post Confessions Anonymously</h2>
+        </a>
+    </nav>
+
+
+    <% for (let i = 0; i < postItems.length; i++) { %>
+        <div class="container">
+            <h3>
+                <%= postItems[i].title %>
+            </h3>
+            <% if( postItems[i].body.length > 200 ){ %>
+                <p>
+                    <%= postItems[i].body.slice(0, 200) + " ..." %> <a href="/post/<%= postItems[i].index %>"> Read More </a></p>
+                <% }else{ %>
+                    <p>
+                        <%= postItems[i].body %>
+                    </p>
+                    <% } %>
+        </div>
+        <% } %>
+
+            <%- include('partials/footer'); -%>
