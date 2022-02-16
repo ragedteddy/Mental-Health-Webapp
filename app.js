@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const mongoose = require("mongoose");
 
-const contactContent = "You can mail me at ruby@gmail.com";
+const contactContent = "You can mail me at nikhilkvpy2018@gmail.com";
 const app = express();
 
 app.set('view engine', 'ejs');
